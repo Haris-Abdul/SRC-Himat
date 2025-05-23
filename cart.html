@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRC Himat | Keranjang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark main-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SRC HIMAT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="DaftarProduk.html">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-cart"></i> Keranjang</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--table-->
+      <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center my-5">Keranjang Belanja</h2>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Pesanan</th>
+                        <th>Harga</th>
+                        <th>Jumlah</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td><img src="image/aqua_aqua_galon_19l_full01_b1xudady.jpg" class="img_thumbnail" width="150px" alt=""></td>
+                        <td>Aqua Galon</td>
+                        <td>Rp 21.000</td>
+                        <td>2</td>
+                        <td>Rp 42.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td><img src="image/Rinso.jpg" class="img_thumbnail" width="150px" alt=""></td>
+                        <td>Rinso</td>
+                        <td>Rp 27.000</td>
+                        <td>1</td>
+                        <td>Rp 27.000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">Total</th>
+                        <th>Rp 69.000</th>
+                    </tr>
+                </table>
+            </div>
+            <button class="btn btn-warning text-light">Checkout</button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+    <footer class="footer text-white pt-5 pb-4">
+        <div class=" container text-center text-md-left">
+            <div class="row text-center texr-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> SRC Himat</h5>
+                    <p> SRC Himat merupakan toko kelontong dengan konsep modern, menjual berbagai barang dari 
+                        mulai sembako, minuman, jajanan, alat mandi, rokok, dll.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Product</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Makanan</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Minuman</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Kebutuhan Rumah Tangga</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Snack</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-auto">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Contact us</h5>
+                    <p>
+                        <i class="bi bi-house mr-3"></i> Jl. Ps. Karanggendot, Kroya, Limbangan, Kec. Wanareja, Kabupaten Cilacap, Jawa Tengah 53232
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope mr-3"></i> Faturrokhman@gmail.com
+                    </p>
+                    <p>
+                        <i class="bi bi-telephone mr-3"></i> 085923462716
+                </div>
+            </div>
+
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p> Copyright &copy;2025 All rights reserved by :
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-warning"> TmSeiraa</strong>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/faturrrokhman_?igsh=OGQ5ZDc2ODk2ZA==" 
+                                class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://wa.me/085923462716" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-whatsapp"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.tiktok.com/@bagussetiyaromadoni?_t=ZS-8w7Wc7Boayw&_r=1" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-tiktok"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
