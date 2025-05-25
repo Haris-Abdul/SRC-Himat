@@ -30,3 +30,38 @@
     background-color: red !important;
 }
 
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    color: white;
+
+}
+
+.box {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+p {
+    font-size: 1.2em;
+
+}
+
+iframe {
+    border-radius: 2em;
+    border: 5px solid blue;
+    width: 500px;
+    height: 500px;
+}
+
+iframe:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
